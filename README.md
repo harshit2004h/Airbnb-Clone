@@ -1,4 +1,4 @@
-# 🏡 Airbnb Clone
+# 🏡 Airbnb Clone - Full-Stack Clone
 
 <div align="center">
 
