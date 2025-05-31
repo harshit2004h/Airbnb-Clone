@@ -9,7 +9,7 @@
 
 **A modern Airbnb clone built with Next.js 14, Kinde, Supabase, and Prisma**
 
-🚀[Live Demo](https://your-airbnb-clone.vercel.app)
+🚀[Live Demo](https://airbnb-clone-beryl.vercel.app)
 
 </div>
 
