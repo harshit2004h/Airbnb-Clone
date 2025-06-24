@@ -63,7 +63,7 @@ export default async function HomeRoute({
       <div className="relative h-[550px]">
         <Image
           alt="Image of Home"
-          src={`https://srjryizgcffyhibwzvwv.supabase.co/storage/v1/object/public/images/${data?.photo}`}
+          src={`https://qmldhhoqmemkwpunqcka.supabase.co/storage/v1/object/public/images/${data?.photo}`}
           fill
           className="rounded-lg h-full object-cover w-full"
         />
