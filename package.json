@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "echo 'Skipping prisma generate during Docker build'"
+    "postinstall": "if [ \"$SKIP_PRISMA_GENERATE\" != \"true\" ]; then npx prisma generate --schema=prisma/schema.prisma; else echo 'Skipping prisma generate'; fi"
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.1.10",
@@ -47,5 +47,8 @@
     "tailwindcss": "^3.3.0",
     "tsx": "^4.19.4",
     "typescript": "^5"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
   }
 }
